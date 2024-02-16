@@ -1,0 +1,1 @@
+By participating in the Hackathon, participants grant inFer a non-exclusive, worldwide, royalty-free license to use, reproduce, and publicly display their work for the sole purpose of promoting and showcasing the Hackathon, including but not limited to marketing materials, websites, and social media.
