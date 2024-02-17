@@ -1,4 +1,4 @@
-function [OUTPUT, WAVEFORM] = swim2(spermid,Tend)
+function [OUTPUT, WAVEFORM] = swim2(data,spermid,Tend)
 %please first run 'global data' outside function to declare 'data' a global variable
 
 %sperm #spermid swims for periodcount periods
@@ -6,14 +6,14 @@ function [OUTPUT, WAVEFORM] = swim2(spermid,Tend)
 
 
 
-global data
-data_ = data;
+% global data
+% data = data;
 
-xymat = data_{spermid}.cartesian; %cartesian data for 1 period
+xymat = data{spermid}.cartesian; %cartesian data for 1 period
 
 
-L = data_{spermid}.flagellum_length*10^-6; %flagellum length in m
-T = data_{spermid}.period; %period in seconds
+L = data{spermid}.flagellum_length*10^-6; %flagellum length in m
+T = data{spermid}.period; %period in seconds
 
 Nt = size(xymat,1);
 Ns = size(xymat,2);
@@ -158,7 +158,6 @@ WAVEFORM(end,:,:) = xymat(1,:,:);
     WAVEFORM(i,:,1) = cos(THETAVEC(i))*wavex -sin(THETAVEC(i))*wavey + XMAT(1,i);
         WAVEFORM(i,:,2) = sin(THETAVEC(i))*wavex +cos(THETAVEC(i))*wavey + XMAT(2,i);
  end
- 1
 
 % 
 %  figure
