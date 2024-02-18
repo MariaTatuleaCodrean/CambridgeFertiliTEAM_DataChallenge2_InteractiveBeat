@@ -34,8 +34,6 @@ The project meets the requirements of the hackathon in the following ways:
     
 - **Timebound**- We have successfully reproduced and explained the manuscript's results. We have gone further and dissected the key features present in each of the figures. We now have a framework which can be used to arbitrary datasets on spermatozoa geometry, hence our work is easily extendable to a wide-range of flagellar beat-pattern analyses.
 
-## Background
-
 
 ---
 ## The GUI
