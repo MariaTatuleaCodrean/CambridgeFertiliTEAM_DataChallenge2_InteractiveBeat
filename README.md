@@ -36,7 +36,7 @@ The project meets the requirements of the hackathon in the following ways:
 
 ## Background
 
-Brief background on the field of IVF research with focus on sperm motility diagnostics and investigations. 
+Waveforms traced by the flagellum of a sperm cell can have large variations, especially when observed across different independent measurements. Useful information from such datasets can be extracted by first identifying key morphological features that describe most of the observed data. A shape-mode analysis is a standard way to find these ``most important shapes'', given a dataset of flagellar waveforms. The mathematical technique to perform this shape-mode analysis is called the principal component analysis. The ``most important shapes'', formally known as \emph{principal modes} of the dataset, account for majority of the variance within the dataset from which they have been extracted/computed. In what follows, we discuss different aspects of the waveform analysis detailed above, as they appear in the \href{https://royalsocietypublishing.org/doi/10.1098/rsos.200769}{\textcolor{blue}{source manuscript}}.
 
 
 ---
