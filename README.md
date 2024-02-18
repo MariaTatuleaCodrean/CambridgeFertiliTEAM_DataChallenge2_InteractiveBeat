@@ -22,8 +22,6 @@ To solve this problem, we have designed MATLAB live scripts that: (i) reproduce 
 
 Although the Live Scripts were primarily designed for researchers in the field of IVF and infertility, the scripts can also be used by the general public to gain a better understanding of the link between sperm motility and infertility.
 
-Although the Live Scripts were primarily designed for researchers in the field of IVF and infertility, the scripts can also be used by the general public to gain a better understanding of the link between sperm motility and infertility.
-
 The project meets the requirements of the hackathon in the following ways:
 
 - **Specific**- We have brought to life the figures of the paper titled "Computer-assisted beat-pattern analysis and the flagellar waveforms of bovine spermatozoa", authored by Benjamin J. Walker, Shiva Phuyal, Kenta Ishimoto, Chih-Kuan Tung, and Eamonn A. Gaffney, providing interactive versions of all figures. These are easy to explore and give the user ample options to study and compare different spermatozoa waveforms.
