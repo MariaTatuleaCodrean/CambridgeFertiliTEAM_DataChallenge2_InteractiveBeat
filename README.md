@@ -2,23 +2,22 @@
 
 This repository is Cambridge FertiliTEAM's entry to <a href="https://infernetwork.wixsite.com/infer/hackathon" target="_blank">**inFer GW4 Network Hackathon: "Fertility: In Vitro, In Silico, In Clinico"**</a>.
 
-## <span style="color:blue">GOAL: Enter project goal.</span>
+## <span style="color:blue">GOAL: Create an interactive and user-friendly platform that allows researchers to reproduce the analyses and figures presented in the manuscript. Ensure that the platform facilitates easy exploration and understanding of the research findings.</span>
 
-## RESULT: Enter project results <a href="https://infernetwork.wixsite.com/infer/hackathon" target="_blank">**here**</a>.
 
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Solution](#solution)
 - [Background](#background)
 - [The GUI](#the-gui)
 - [Team](#team)
 
 - ---
-## Introduction
-Motivation for IVF research.
+## Solution
+We have designed MATLAB live scripts that: (i) reproduce the data published in the manuscript titled, "Computer-assisted beat-pattern analysis and the flagellar waveforms of bovine spermatozoa", authored by Benjamin J. Walker, Shiva Phuyal, Kenta Ishimoto, Chih-Kuan Tung, and Eamonn A. Gaffney, (ii) allow the user to interact with the data and understand waveform analysis and reconstruction, (iii) perform biophysical modelling of spermatozoa swimming on existing data and visualize trajectories of various sperm cells.
 
-To solve this problem, we have designed three MATLAB live scripts that ... . The live scripts allow the user to reproduce and interact with the data published by (reference), and also to explore additional features.
+The MATLAB live scripts are: (i) interactive_manuscript.mlx, (ii) explore_waveforms.mlx and (iii) explore_swimming.mlx.
 
 Although the Live Scripts were primarily designed for researchers in the field of IVF and infertility, the scripts can also be used by the general public to gain a better understanding of the link between sperm motility and infertility.
 
@@ -33,10 +32,6 @@ The project meets the requirements of the hackathon in the following ways:
 - **Relevant**- Our submission straddles multiple scientific disciplines--biology, statistics, fluid mechanics--and will help researchers in these fields communicate with each other. By reproducing the results of a scientific journal on an interactive interface, we are making that information more accessible to the research community.
     
 - **Timebound**- We have successfully reproduced and explained the manuscript's results. We have gone further and dissected the key features present in each of the figures. We now have a framework which can be used to arbitrary datasets on spermatozoa geometry, hence our work is easily extendable to a wide-range of flagellar beat-pattern analyses.
-
-## Background
-
-Brief background on the field of IVF research with focus on sperm motility diagnostics and investigations. 
 
 
 ---
