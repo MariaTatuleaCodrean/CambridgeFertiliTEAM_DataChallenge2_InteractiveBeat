@@ -18,7 +18,9 @@ This repository is Cambridge FertiliTEAM's entry to <a href="https://infernetwor
 ## Introduction
 Motivation for IVF research.
 
-To solve this problem, we have designed three MATLAB live scripts that ... . The live scripts allow the user to reproduce and interact with the data published by (reference), and also to explore additional features.
+To solve this problem, we have designed MATLAB live scripts that: (i) reproduce the data published in the manuscript titled, "Computer-assisted beat-pattern analysis and the flagellar waveforms of bovine spermatozoa", authored by Benjamin J. Walker, Shiva Phuyal, Kenta Ishimoto, Chih-Kuan Tung, and Eamonn A. Gaffney, (ii) allow the user to interact with the data and understand waveform analysis and reconstruction, (iii) perform biophysical modelling of spermatozoa swimming on existing data and visualize trajectories of various sperm cells.
+
+Although the Live Scripts were primarily designed for researchers in the field of IVF and infertility, the scripts can also be used by the general public to gain a better understanding of the link between sperm motility and infertility.
 
 Although the Live Scripts were primarily designed for researchers in the field of IVF and infertility, the scripts can also be used by the general public to gain a better understanding of the link between sperm motility and infertility.
 
