@@ -43,7 +43,7 @@ The project meets the requirements of the hackathon in the following ways:
 </p>
 --->
 
-*A screenshot of the app*
+
 
 The live scripts use a Graphical User Interface (GUI) to allow easy manipulation of input variables. There are sliders for:
 
