@@ -4,21 +4,20 @@ This repository is Cambridge FertiliTEAM's entry to <a href="https://infernetwor
 
 ## <span style="color:blue">GOAL: Create an interactive and user-friendly platform that allows researchers to reproduce the analyses and figures presented in the manuscript. Ensure that the platform facilitates easy exploration and understanding of the research findings.</span>
 
-## RESULT: Enter project results <a href="https://infernetwork.wixsite.com/infer/hackathon" target="_blank">**here**</a>.
 
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Solution](#solution)
 - [Background](#background)
 - [The GUI](#the-gui)
 - [Team](#team)
 
 - ---
-## Introduction
-Motivation for IVF research.
+## Solution
+We have designed MATLAB live scripts that: (i) reproduce the data published in the manuscript titled, "Computer-assisted beat-pattern analysis and the flagellar waveforms of bovine spermatozoa", authored by Benjamin J. Walker, Shiva Phuyal, Kenta Ishimoto, Chih-Kuan Tung, and Eamonn A. Gaffney, (ii) allow the user to interact with the data and understand waveform analysis and reconstruction, (iii) perform biophysical modelling of spermatozoa swimming on existing data and visualize trajectories of various sperm cells.
 
-To solve this problem, we have designed MATLAB live scripts that: (i) reproduce the data published in the manuscript titled, "Computer-assisted beat-pattern analysis and the flagellar waveforms of bovine spermatozoa", authored by Benjamin J. Walker, Shiva Phuyal, Kenta Ishimoto, Chih-Kuan Tung, and Eamonn A. Gaffney, (ii) allow the user to interact with the data and understand waveform analysis and reconstruction, (iii) perform biophysical modelling of spermatozoa swimming on existing data and visualize trajectories of various sperm cells.
+The MATLAB live scripts are: (i) interactive_manuscript.mlx, (ii) explore_waveforms.mlx and (iii) explore_swimming.mlx.
 
 Although the Live Scripts were primarily designed for researchers in the field of IVF and infertility, the scripts can also be used by the general public to gain a better understanding of the link between sperm motility and infertility.
 
