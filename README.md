@@ -2,7 +2,7 @@
 
 This repository is Cambridge FertiliTEAM's entry to <a href="https://infernetwork.wixsite.com/infer/hackathon" target="_blank">**inFer GW4 Network Hackathon: "Fertility: In Vitro, In Silico, In Clinico"**</a>.
 
-## <span style="color:blue">GOAL: Enter project goal.</span>
+## <span style="color:blue">GOAL: Create an interactive and user-friendly platform that allows researchers to reproduce the analyses and figures presented in the manuscript. Ensure that the platform facilitates easy exploration and understanding of the research findings.</span>
 
 ## RESULT: Enter project results <a href="https://infernetwork.wixsite.com/infer/hackathon" target="_blank">**here**</a>.
 
