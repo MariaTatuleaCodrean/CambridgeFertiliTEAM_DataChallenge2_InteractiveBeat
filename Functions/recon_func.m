@@ -27,6 +27,6 @@ axis equal
 % axis tight
 % daspect([1 1 1])
 
-legend('true waveform', strcat(num2str(rec_modes),'-mode best fit'), 'Location', 'northeast', 'interpreter', 'latex')
+legend('true waveform', strcat(num2str(rec_modes),'-mode best fit'), 'Location', 'northeast', 'interpreter', 'latex','FontSize',14)
 
 end
