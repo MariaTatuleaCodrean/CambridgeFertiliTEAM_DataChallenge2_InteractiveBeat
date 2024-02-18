@@ -3,7 +3,7 @@ function [data] = load_all_data()
 % (GitHub restricts file size to 100 MB)
 %
 % NOTE: This MATLAB script was written from scratch by the members of 
-% Cambridge InfertiliTEAM for inFer GW4 network Hackathon 2024
+% Cambridge FertiliTEAM for inFer GW4 network Hackathon 2024
 
 % Retrieve files containing data blocks
 blockdatafiles = dir('Data/all_data_*.mat');

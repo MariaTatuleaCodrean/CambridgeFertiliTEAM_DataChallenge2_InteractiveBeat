@@ -1,4 +1,6 @@
 function [] = recon_func(spNo, tStep, rec_modes, coeff_op, modes_op, mu_op)
+% NOTE: This MATLAB script was written from scratch by the members of 
+% Cambridge FertiliTEAM for inFer GW4 network Hackathon 2024
 
 % x_inds = 1:1000;
 % y_inds = 1001:2000;

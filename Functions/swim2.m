@@ -1,13 +1,9 @@
 function [OUTPUT, WAVEFORM] = swim2(data,spermid,Tend)
-%please first run 'global data' outside function to declare 'data' a global variable
+% NOTE: This MATLAB script was written from scratch by the members of 
+% Cambridge FertiliTEAM for inFer GW4 network Hackathon 2024
 
 %sperm #spermid swims for periodcount periods
 %spermid and periodcount are integers
-
-
-
-% global data
-% data = data;
 
 xymat = data{spermid}.cartesian; %cartesian data for 1 period
 
