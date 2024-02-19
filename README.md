@@ -4,20 +4,34 @@ This repository is Cambridge FertiliTEAM's entry to <a href="https://infernetwor
 
 ## <span style="color:blue">GOAL: Create an interactive and user-friendly platform that allows researchers to reproduce the analyses and figures presented in the manuscript. Ensure that the platform facilitates easy exploration and understanding of the research findings.</span>
 
+## <span style="color:blue">RESULT: The interactive platform consists of three MATLAB Live Scripts: <a href="https://github.com/MariaTatuleaCodrean/CambridgeFertiliTEAM_DataChallenge2_SolutionTitle/blob/main/interactive_manuscript.mlx" target="_blank">**interactive manuscript**</a>, <a href="https://github.com/MariaTatuleaCodrean/CambridgeFertiliTEAM_DataChallenge2_SolutionTitle/blob/main/explore_waveforms.mlx" target="_blank">**explore waveforms**</a>, and <a href="https://github.com/MariaTatuleaCodrean/CambridgeFertiliTEAM_DataChallenge2_SolutionTitle/blob/main/explore_swimming.mlx" target="_blank">**explore swimming**</a>.</span>
 
 
 ## Table of Contents
 
 - [Solution](#solution)
-- [Background](#background)
 - [The GUI](#the-gui)
+- [Methods](#methods)
 - [Team](#team)
 
-- ---
+---
 ## Solution
-We have designed MATLAB live scripts that: (i) reproduce the data published in the manuscript titled, "Computer-assisted beat-pattern analysis and the flagellar waveforms of bovine spermatozoa", authored by Benjamin J. Walker, Shiva Phuyal, Kenta Ishimoto, Chih-Kuan Tung, and Eamonn A. Gaffney, (ii) allow the user to interact with the data and understand waveform analysis and reconstruction, (iii) perform biophysical modelling of spermatozoa swimming on existing data and visualize trajectories of various sperm cells.
 
-The MATLAB live scripts are: (i) interactive_manuscript.mlx, (ii) explore_waveforms.mlx and (iii) explore_swimming.mlx.
+Our solution consists of three MATLAB live scripts: 
+
+- **interactive_manuscript.mlx**,
+  
+- **explore_waveforms.mlx**,
+  
+- **explore_swimming.mlx**.
+
+We have designed MATLAB live scripts that: 
+
+* reproduce the data published in the manuscript titled, "Computer-assisted beat-pattern analysis and the flagellar waveforms of bovine spermatozoa", authored by Benjamin J. Walker, Shiva Phuyal, Kenta Ishimoto, Chih-Kuan Tung, and Eamonn A. Gaffney,
+
+* allow the user to interact with the data and understand waveform analysis and reconstruction,
+
+* perform biophysical modelling of spermatozoa swimming on existing data and visualize trajectories of various sperm cells.
 
 Although the Live Scripts were primarily designed for researchers in the field of IVF and infertility, the scripts can also be used by the general public to gain a better understanding of the link between sperm motility and infertility.
 
@@ -35,27 +49,32 @@ The project meets the requirements of the hackathon in the following ways:
 
 
 ---
+## Methods
+
+The methods are described in an accompanying <a href="https://github.com/MariaTatuleaCodrean/CambridgeFertiliTEAM_DataChallenge2_SolutionTitle/blob/main/An%20interactive%20beat-pattern%20analysis%20of%20spermatozoa.pdf" target="_blank">**PDF file**</a>.
+
+
+---
 ## The GUI
 
- <!---  
 <p align="left">
-<img  src="https://github.com/Lucyhenley/CardiffMATHBIO_NERCHackathonTwo_PublicTransport/blob/master/figs/screenshot.png?raw=true" alt="App Screenshot" class = "center" width="1000" height = "500"/>
+<img  src="https://github.com/MariaTatuleaCodrean/CambridgeFertiliTEAM_DataChallenge2_SolutionTitle/blob/main/The_GUI.png?raw=true" alt="LiveScript Screenshot" class = "center" width="1024" height = "576"/>
 </p>
---->
 
+The live scripts use a Graphical User Interface (GUI) to allow easy manipulation of input variables. There are intuitive controls (numeric sliders, numeric spinners, check boxes, drop down menus) to select:
 
-
-The live scripts use a Graphical User Interface (GUI) to allow easy manipulation of input variables. There are sliders for:
-
-* sperm ID;
+* sperm ID (from 1 to 216);
 
 * timepoint;
+  
+* samples; 
 
-* number of modes in waveform reconstruction
+* number of PCA modes.
+
+These controls enable anyone to explore the entire set of data published by Walker et al. (2020). 
 
 
-
-
+---
 ## Team
 
 The team is comprised of PhD Students and Postdocs from the Department of Applied Mathematics and Theoretical Physics (DAMTP) at the University of Cambridge. The project was conceived, developed, coded and written up by the group. 
