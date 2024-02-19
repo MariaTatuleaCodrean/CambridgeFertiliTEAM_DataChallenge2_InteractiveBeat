@@ -1,4 +1,4 @@
-# CambridgeFertiliTEAM_DataChallenge2_SolutionTitle
+# An interactive beat-pattern analysis of spermatozoa
 
 This repository is Cambridge FertiliTEAM's entry to <a href="https://infernetwork.wixsite.com/infer/hackathon" target="_blank">**inFer GW4 Network Hackathon: "Fertility: In Vitro, In Silico, In Clinico"**</a>.
 
