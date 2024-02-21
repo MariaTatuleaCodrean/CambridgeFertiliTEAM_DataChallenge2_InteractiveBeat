@@ -1,4 +1,4 @@
-function [] = recon_func(spNo, tStep, rec_modes, coeff_op, modes_op, mu_op)
+function [] = recon_func(spNo, tStep, rec_modes, coeff_op, modes_op, mu_op,axlabels_FontSize,title_FontSize)
 % NOTE: This MATLAB script was written from scratch by the members of 
 % Cambridge FertiliTEAM for inFer GW4 network Hackathon 2024
 
@@ -6,6 +6,13 @@ function [] = recon_func(spNo, tStep, rec_modes, coeff_op, modes_op, mu_op)
 % y_inds = 1001:2000;
 
 % num_frames = 100;
+
+if ~exist('axlabels_FontSize','var')
+    axlabels_FontSize = 12;
+end
+if ~exist('title_FontSize','var')
+    title_FontSize = 14;
+end
 
 rowNo = (spNo-1)*100 + tStep;
 
@@ -19,16 +26,16 @@ plot(xy_act(1:loc_skip:1000) + mu_op(1:loc_skip:1000)', xy_act(1001:loc_skip:200
 
 plot(xy_rec(1:loc_skip:1000) + mu_op(1:loc_skip:1000)', xy_rec(1001:loc_skip:2000) + mu_op(1001:loc_skip:2000)', '--', 'linewidth', 2, 'color', 'r')
 
-xlabel( '$x$', 'interpreter', 'latex', 'fontsize', 22 );
-ylabel( '$y$', 'interpreter', 'latex', 'fontsize', 22 );
-set( gca, 'fontsize', 22, 'fontname', 'times new roman' );
+xlabel( '$x$', 'interpreter', 'latex', 'fontsize', axlabels_FontSize);
+ylabel( '$y$', 'interpreter', 'latex', 'fontsize', axlabels_FontSize);
+set( gca, 'fontsize', axlabels_FontSize, 'fontname', 'times new roman' );
 
-title( strcat( 'Sperm ID=', num2str(spNo), ', $t=$', num2str(tStep),', no. of modes=', num2str(rec_modes)), 'interpreter', 'latex', 'fontsize', 22 )
+title( strcat( 'Sperm ID=', num2str(spNo), ', $t=$', num2str(tStep),', no. of modes=', num2str(rec_modes)), 'interpreter', 'latex', 'fontsize', title_FontSize)
 
 axis equal
 % axis tight
 % daspect([1 1 1])
 
-legend('true waveform', strcat(num2str(rec_modes),'-mode best fit'), 'Location', 'northeast', 'interpreter', 'latex','FontSize',14)
+legend('true waveform', strcat(num2str(rec_modes),'-mode best fit'), 'Location', 'northeast', 'interpreter', 'latex','FontSize',axlabels_FontSize)
 
 end
